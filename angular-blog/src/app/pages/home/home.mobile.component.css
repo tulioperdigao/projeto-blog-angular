@@ -1,0 +1,15 @@
+@media screen and (max-width: 827px){
+  .container__articles {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .articles__main {
+    width: 100%;
+  }
+
+  .articles__others {
+    width: 100%;
+    margin-top: 50px;
+  }
+}

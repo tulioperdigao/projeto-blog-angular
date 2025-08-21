@@ -1,6 +1,5 @@
 .container__big-card {
-  width: 500px;
-  height: 400px;
+  width: 100%;
   margin: 0px 10px;
 
   display: flex;
