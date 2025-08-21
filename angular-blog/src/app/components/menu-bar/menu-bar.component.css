@@ -1,1 +1,14 @@
+.container__menu-bar {
+  margin-top: 15px;
+}
 
+.container__menu-bar ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.container__menu-bar nav > ul > li {
+  margin: 20px;
+}
