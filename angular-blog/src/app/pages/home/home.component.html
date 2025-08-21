@@ -6,11 +6,36 @@
 
 <div class="container__articles">
   <div class="articles__main">
-    <app-big-card></app-big-card>
+    <app-big-card
+      [imageCover]="'https://assets.dio.me/TUoq4u7yqxEEfAkAxSlAzIngHpdWJhZlHG4VmbwtoZc/f:webp/q:80/L2FydGljbGVzL2NvdmVyLzNlY2FmYTJiLTRkMzktNDIxYy04YjJmLThkODRiYjQwNmVjNy5qcGc'"
+      [cardTitle]="'Nova versão de Angular disponível!'"
+      [cardDescription]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint dolore, non corrupti quibusdam quos hic. Dolorum, minus! Ad natus optio rem excepturi mollitia! Incidunt consequuntur magnam odio sed molestiae exercitationem?'"
+    >
+    </app-big-card>
+    <app-big-card
+      [imageCover]="'https://ichef.bbci.co.uk/ace/standard/766/cpsprodpb/ab64/live/1bb44100-7bf4-11f0-aece-9756192b0836.jpg'"
+      [cardTitle]="'Neymar chora após apito final!'"
+      [cardDescription]="'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint dolore, non corrupti quibusdam quos hic. Dolorum, minus! Ad natus optio rem excepturi mollitia! Incidunt consequuntur magnam odio sed molestiae exercitationem?'"
+    >
+    </app-big-card>
   </div>
   <div class="articles__others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    <app-small-card
+      [imageCover]="'https://i0.wp.com/www.gibizilla.com.br/wp-content/uploads/2021/02/Darth-Vader.jpg?fit=1536%2C864&ssl=1'"
+      [cardTitle]="'Darth Vader surta com imperador!'"
+    >
+    </app-small-card>
+
+    <app-small-card
+      [imageCover]="'https://medias.itatiaia.com.br/dims4/default/1200a67/2147483647/strip/true/crop/1000x563+0+0/resize/1000x563!/quality/90/?url=https%3A%2F%2Fk2-prod-radio-itatiaia.s3.us-east-1.amazonaws.com%2Fbrightspot%2F72%2Fa8%2F60bebb984890bb5137cc9f0bb2c4%2Ffotojet-75.jpg'"
+      [cardTitle]="'Novo desfalque no Galo: Lyanco'"
+    >
+    </app-small-card>
+
+    <app-small-card
+      [imageCover]="'https://palestrasdesucesso.com.br/?attachment_id=20570'"
+      [cardTitle]="'Reveja gols e dribles mágicos do bruxo!'"
+    >
+    </app-small-card>
   </div>
 </div>
