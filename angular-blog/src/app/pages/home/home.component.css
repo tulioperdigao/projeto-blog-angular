@@ -7,11 +7,6 @@
   justify-content: center;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-}
-
 .articles__main {
   width: 45%;
   margin-right: 30px;
