@@ -54,3 +54,7 @@
   text-align: justify;
   line-height: 1.5em;
 }
+
+.content__title > h1 {
+  text-align: center;
+}
