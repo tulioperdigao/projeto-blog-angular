@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { dataFake } from 'src/app/data/dataFake';
+import CardData from 'src/app/data/dataModel';
 
 @Component({
   selector: 'app-home',
@@ -9,10 +11,14 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class HomeComponent implements OnInit {
+  data:CardData[] = dataFake
 
-  constructor() { }
+  constructor() {
+
+  }
 
   ngOnInit(): void {
+
   }
 
 }

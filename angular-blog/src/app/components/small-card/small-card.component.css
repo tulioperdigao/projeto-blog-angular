@@ -16,6 +16,7 @@
 .small-card__image > img {
   object-fit: cover;
   height: 100%;
+  width: inherit;
 }
 
 .small-card__title {
