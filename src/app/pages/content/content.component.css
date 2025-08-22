@@ -58,3 +58,9 @@
 .content__title > h1 {
   text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+  .content__title > hr {
+    display: none;
+  }
+}
